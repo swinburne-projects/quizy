@@ -11,7 +11,7 @@ const BarGraph: React.FC<BarGraphProps> = ({ data }) => {
 
   const getColor = (label: string) => {
     switch (label) {
-      case "Deoxyribonucleic Acid":
+      case "Deoxyribonucleic acid":
         return "blue";
       case "Dehydrogenated Acid":
         return "red";
